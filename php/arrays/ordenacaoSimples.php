@@ -33,6 +33,7 @@ $notasAssociativas = [
     ]
 ];
 
+// Ensinando a função usort ordenar o array associativo por valor.
 function ordenaNotas(array $nota1, array $nota2): int
 {
     if($nota1['nota'] > $nota2['nota']){
