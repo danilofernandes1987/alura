@@ -17,7 +17,7 @@ if (is_array($notas)) {
 
 // Verifica se o array é numerico com numeros sequenciais, a partir da versão 8.1 do php
 
-//var_dump(array_is_list($notas));
+var_dump(array_is_list($notas));
 
 
 // Verifica se existe chave informada em um array
